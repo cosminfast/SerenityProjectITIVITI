@@ -23,7 +23,6 @@ public class CartPage extends BasePage {
                 element.findElement(qtyField).clear();
                 element.findElement(qtyField).sendKeys(2 + "");
                 element.findElement(updateButton).click();
-                waitABit(1500);
                 return true;
             }
         }
