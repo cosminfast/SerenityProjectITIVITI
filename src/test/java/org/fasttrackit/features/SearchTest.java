@@ -17,4 +17,6 @@ public class SearchTest extends BaseTest{
         searchSteps.checkProductIsNotInList("SILVER DESERT NECKLACE");
 
     }
+
+
 }

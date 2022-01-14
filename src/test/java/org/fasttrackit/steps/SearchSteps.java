@@ -7,10 +7,8 @@ import org.fasttrackit.pages.HomePage;
 import org.fasttrackit.pages.SearchResutsPage;
 import org.junit.Assert;
 
-public class SearchSteps extends ScenarioSteps {
+public class SearchSteps extends BaseSteps {
 
-    private HomePage homePage;
-    private SearchResutsPage searchResutsPage;
     private WebElementFacade foundElement;
 
     @Step
@@ -47,5 +45,7 @@ public class SearchSteps extends ScenarioSteps {
         findElementInList(productName);
         addFoundProductInCart();
     }
+
+
 
 }
